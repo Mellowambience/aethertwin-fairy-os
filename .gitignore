@@ -1,0 +1,30 @@
+# deps
+node_modules/
+.pnp
+.pnp.js
+
+# build output
+dist/
+dist-ssr/
+
+# generated content artifacts (re-creatable via npm run content / npm run weekly)
+content/queue.json
+content/weekly-thread.json
+content/hub-activity.json
+
+# logs / os junk
+*.log
+.DS_Store
+Thumbs.db
+npm-debug.log*
+debug-*.log
+
+# env / secrets (never commit)
+.env
+.env.*
+!.env.example
+
+# editor
+.vscode/
+.idea/
+*.swp

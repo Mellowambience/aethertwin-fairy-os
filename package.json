@@ -1,0 +1,24 @@
+{
+  "name": "aethertwin-fairy-os",
+  "version": "0.3.0-agent-ready",
+  "private": true,
+  "description": "A local-first Fairy OS prototype: embodied AI skill agents with Genesis, evolution, memory, avatar vision, permissions, and agent handoff docs.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node scripts/test-model-router.mjs && node scripts/test-evolution-selfmodel.mjs && node scripts/test-fairy-hub.mjs && node scripts/test-career-smith.mjs",
+    "agent:brief": "node scripts/print-agent-brief.mjs",
+    "content": "node scripts/x-content-queue.mjs",
+    "weekly": "node scripts/x-weekly-thread.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "6.0.3",
+    "lucide-react": "1.23.0",
+    "pixi.js": "^8.19.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "vite": "8.1.3"
+  }
+}
